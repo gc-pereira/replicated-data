@@ -13,7 +13,7 @@ source run.sh
 ```
 Mas atente-se a mudar o caminho que irá criar sua virtual enviroment, alterando o caminho para o da pasta raiz. Se estiver interessado em saber como os comandos funcionam e oq eles faze, acompanhe o resto desse README.md.
 
-## Começando o projeto
+## Começando o projeto e configuração do ambiente
 
 Para inicializar o projeto é necessário utilizar os seguintes comando responsáveis por criar uma imagem mysql. Primeiro execute,
 ```shell
