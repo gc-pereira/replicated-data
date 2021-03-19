@@ -16,4 +16,14 @@ aguarde a execução e a imagem mysql será criada dentro de um container docker
 ```shell
 docker run -d --rm --name mysql-container mysql-image
 ```
+É necessário criar uma virtual enviroment onde ficarão hospedados todos os diretório de bibliotecas a serem utilizadas,
 
+```shell
+python3 -m venv /path/to/new/virtual/environment
+```
+e executar
+
+```shell
+source .venv/bin/activate
+```
+para os arquivos *.py entenderem qual será development kits a serem utilizados.
